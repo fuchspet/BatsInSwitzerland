@@ -2,45 +2,31 @@ import { MapPin, Heart, Shield, Info, ChevronDown } from 'lucide-react';
 
 const BatIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 120 100" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <g id="wing">
-        <path d="M 60 35 Q 85 25 110 35 Q 100 45 85 50 Q 75 52 60 50 Z" fill="currentColor"/>
-        <path d="M 60 35 Q 75 30 85 32" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-        <path d="M 60 40 Q 75 35 85 38" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-        <path d="M 60 45 Q 75 42 85 46" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-        <path d="M 65 50 Q 80 48 95 52" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-      </g>
-    </defs>
+    <circle cx="60" cy="35" r="6" fill="currentColor"/>
 
-    <circle cx="60" cy="30" r="8" fill="currentColor"/>
+    <line x1="57" y1="30" x2="54" y2="22" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+    <line x1="63" y1="30" x2="66" y2="22" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
 
-    <line x1="57" y1="23" x2="54" y2="18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-    <line x1="63" y1="23" x2="66" y2="18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+    <path d="M 54 38 Q 20 35 8 50 Q 15 55 38 58 Q 48 58 54 54 Z" fill="currentColor"/>
+    <path d="M 54 40 Q 35 38 18 48" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <path d="M 54 43 Q 35 42 18 52" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <path d="M 52 48 Q 35 48 15 58" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
 
-    <path d="M 52 38 Q 35 32 15 40 Q 28 52 50 55 Z" fill="currentColor"/>
-    <path d="M 52 38 Q 40 35 28 37" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 52 42 Q 40 40 28 43" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 52 46 Q 40 46 28 50" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 50 52 Q 38 52 25 58" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <path d="M 66 38 Q 100 35 112 50 Q 105 55 82 58 Q 72 58 66 54 Z" fill="currentColor"/>
+    <path d="M 66 40 Q 85 38 102 48" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <path d="M 66 43 Q 85 42 102 52" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <path d="M 68 48 Q 85 48 105 58" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
 
-    <path d="M 68 38 Q 85 32 105 40 Q 92 52 70 55 Z" fill="currentColor"/>
-    <path d="M 68 38 Q 80 35 92 37" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 68 42 Q 80 40 92 43" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 68 46 Q 80 46 92 50" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
-    <path d="M 70 52 Q 82 52 95 58" stroke="currentColor" strokeWidth="0.8" fill="none" opacity="0.6"/>
+    <circle cx="48" cy="62" r="1.5" fill="currentColor"/>
+    <circle cx="72" cy="62" r="1.5" fill="currentColor"/>
 
-    <circle cx="48" cy="65" r="2" fill="currentColor"/>
-    <circle cx="72" cy="65" r="2" fill="currentColor"/>
+    <line x1="48" y1="63" x2="46" y2="72" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+    <line x1="48" y1="63" x2="48" y2="73" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+    <line x1="48" y1="63" x2="50" y2="72" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
 
-    <line x1="48" y1="67" x2="46" y2="75" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-    <line x1="48" y1="67" x2="48" y2="76" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-    <line x1="48" y1="67" x2="50" y2="75" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-
-    <line x1="72" y1="67" x2="70" y2="75" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-    <line x1="72" y1="67" x2="72" y2="76" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-    <line x1="72" y1="67" x2="74" y2="75" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-
-    <path d="M 55 58 Q 60 62 65 58" stroke="currentColor" strokeWidth="1" fill="none" strokeLinecap="round"/>
+    <line x1="72" y1="63" x2="70" y2="72" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+    <line x1="72" y1="63" x2="72" y2="73" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
+    <line x1="72" y1="63" x2="74" y2="72" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
   </svg>
 );
 
